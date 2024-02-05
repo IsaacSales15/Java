@@ -1,7 +1,7 @@
 public class Aluno {
 //Atributos
-    public String nome, materia;
-    public int fone;
+    private String nome, materia;
+    private int fone;
 
 //Eu sei que não precisa, mas vou por um constructor aqui pra ficar legal
     public Aluno(String nome, String materia, int fone) {
